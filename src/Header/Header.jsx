@@ -57,7 +57,7 @@ export default class Header extends Component
                 </ul>
             {/* Hamburger menu start */}
             <div className="hamburger-menu">
-              <a href="#" onClick={()=>this.state.showMediaIcon ? this.setState({showMediaIcon:false}) : this.setState({showMediaIcon:true})}>
+              <a onClick={()=>this.state.showMediaIcon ? this.setState({showMediaIcon:false}) : this.setState({showMediaIcon:true})}>
               <GiHamburgerMenu/>
               </a>
             </div>
