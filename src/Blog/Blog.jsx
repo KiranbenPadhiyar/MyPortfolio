@@ -18,21 +18,21 @@ export default class Blog extends Component
     <input type="radio" name="slider" className="trigger" id="one" checked={true} />
     <div className="slide">
       <figure className="slide-figure">
-        <img className="slide-img" src={slider1} />
+        <img className="slide-img" alt="slider1" src={slider1} />
         
       </figure>{/* .slide-figure */}
     </div>{/* .slide */}
     <input type="radio" name="slider" className="trigger" id="two" />
     <div className="slide">
       <figure className="slide-figure">
-        <img className="slide-img" src={slider2} />
+        <img className="slide-img"  alt="slider2" src={slider2} />
         
       </figure>
     </div>{/* .slide */}
     <input type="radio" name="slider" className="trigger" id="three" />
     <div className="slide">
       <figure className="slide-figure">
-        <img className="slide-img" src={slider3} />
+        <img className="slide-img"  alt="slider3" src={slider3} />
         
       </figure>
     </div>{/* .slide */}
@@ -40,7 +40,7 @@ export default class Blog extends Component
   <input type="radio" name="slider" className="trigger" id="four"/>
     <div className="slide">
       <figure className="slide-figure">
-        <img className="slide-img" src={slider4} />
+        <img className="slide-img"  alt="slider4" src={slider4} />
         
       </figure>
     </div>{/* .slide */}
