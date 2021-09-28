@@ -1,0 +1,23 @@
+.about-h1{
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.content-div
+{
+    font-size: medium;
+    font-family: cursive;
+    text-align: justify;
+    padding-left: 20rem;
+    padding-right: 25rem;
+}
+@media (max-width:767px)
+{
+    .content-div
+{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+}

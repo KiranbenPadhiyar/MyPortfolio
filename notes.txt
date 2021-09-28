@@ -1,0 +1,15 @@
+React
+Own CSS
+BrowserRouter - put instide that you want to render
+React Rought Dom - To create menu
+path 
+exact
+route
+switch
+Link insted of a
+to insted href
+
+NavLink same like Link with extar props activeClassName="active_class" 
+exact
+
+Responsive navMenu
